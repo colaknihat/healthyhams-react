@@ -1,3 +1,5 @@
+https://streamable.com/uotucf
+
 # HealthyHams - Nutrition Tracking App
 
 A React Native application for tracking nutrition and managing personal health information.
@@ -86,72 +88,6 @@ A React Native application for tracking nutrition and managing personal health i
 - Color-coded BMI categories
 - Progress tracking over time
 - Clear meal organization by date
-
-## Getting Started
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Start the Metro bundler:
-   ```bash
-   npm start
-   ```
-
-3. Run on Android:
-   ```bash
-   npm run android
-   ```
-
-4. Run on iOS:
-   ```bash
-   npm run ios
-   ```
-
-## Project Structure
-
-```
-healthyhams/
-├── components/
-│   ├── Homescreen.js      # Main dashboard
-│   ├── Calendar.js        # Meal history calendar
-│   ├── PersonalSettings.js # Profile management
-│   ├── Login.js           # Authentication
-│   ├── Ask.js             # User onboarding
-│   └── Details.js         # Food details
-├── assets/
-│   ├── images/            # App images
-│   └── icons/             # Navigation icons
-├── App.tsx                # Main app component
-└── package.json           # Dependencies
-```
-
-## Usage Guide
-
-### Using the Calendar
-1. Tap the 📅 calendar icon in the bottom navigation
-2. Browse months using the arrow buttons
-3. Tap any date to view/edit meal data
-4. Add meals using the "Add Meal" section
-5. Remove meals using the red "Remove" buttons
-6. View daily nutrition summaries at the top
-
-### Navigation Tips
-- Calendar is accessible from all main screens
-- Days with meal data show green highlighting
-- Today's date is highlighted in green
-- Selected dates show in dark color
-
-## Contributing
-
-When making changes to the Calendar page:
-1. Ensure meal data persistence across sessions
-2. Maintain proper date formatting and calculations
-3. Keep the modal interface responsive
-4. Follow the established design patterns
-5. Test month navigation thoroughly
-
 When making changes to navigation:
 1. Update all screens with navigation bars
 2. Maintain consistent icon sizing and spacing
